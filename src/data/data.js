@@ -7,7 +7,7 @@ export const featuresData = [
   {
     id: 1,
     title: "Software Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "It is evident that the current trend is intergration of technology to increase productivity. I deliver problem solving Systems that help automate various tasks in businesses. ",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const featuresData = [
     id: 3,
     icon: <SiProgress />,
     title: "Digital Marketing",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "we develop products and make sure our clients get the best of conversion. We carve digital marketing strategy around target audience and channels that gives the best conversion in real terms.",
   },
   // {
   //   id: 4,
