@@ -39,12 +39,12 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
+          {/* <ResumeCard
             title="Wordpress Developer"
             subTitle="Obo Technologies - (2021 - 2022)"
             result="KENYA"
             des="I got a chance to be part of the company where I built and maintained various corporates websites using Content Management Systems(CMS) such as Wordpress."
-          />
+          /> */}
           <ResumeCard
             title="Freelance Developer"
             subTitle="2022 - Present"
