@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaWhatsapp, FaLocationArrow, FaSearchLocation, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaWhatsapp, FaLocationArrow, FaSearchLocation, FaLinkedin, FaGithub } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -42,6 +42,11 @@ const ContactLeft = () => {
           <span className="bannerIcon">
             <FaLinkedinIn/>
           </span>
+          </a>
+          <a href="https://github.com/alvinsleek/">
+            <span className="bannerIcon">
+              <FaGithub/>
+            </span>
           </a>
         </div>
       </div>
