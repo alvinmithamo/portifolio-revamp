@@ -120,7 +120,7 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Insurance Agency Management System.
+                        Website Design.
                       </h3>
                       
                     </div>
@@ -133,7 +133,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Alvin did an exemplary job in building my agency's management system after I got a referral to him by a friend. He delivered a day earlier than the agreed date and the job was superb!
+                    Alvin did an exemplary job in building my agency's Website after I got a referral to him by a friend. He delivered a day earlier than the agreed date and the job was superb!
                   </p>
                 </div>
               </div>
