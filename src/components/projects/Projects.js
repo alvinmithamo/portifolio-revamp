@@ -1,7 +1,9 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectFour, projectFive, projectSeven } from "../../assets/index";
+import { projectFour, projectFive, projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
+import Link from 'react-dom';
+import { Button } from 'react-scroll';
 
 const Projects = () => {
   return (
@@ -20,18 +22,25 @@ const Projects = () => {
           title="PROPERTY LISTING APP"
           des=" The app seeks to list all available properties for sale and rent, bridging the gap between the tenants and landlords. I was built using React and Ruby on Rails "
           src={projectFour}
+          
+
         />
         <ProjectsCard
           title="SLEEK RECIPE APP"
           des=" I built this web app as a solution to trying to access recipes of all kinds of dishes. I used an external API (TheMealDB) to achieve this. The app is built using Javascript , HTML5 and CSS"
           src={projectFive}
+
           />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" The app seeks to promote online shopping for a wide range of products. Site still under construction. Technologies used are Ruby on rails and React"
-          src={projectSeven}
+        
+          title=" WERA JOB PLACEMENT SYSTEM"
+          des=" This was my capstone school project where I collaborated with 5 members of my group to bring this awesome software system. The app seeks to bring jobseekers and recruiters to one place. Technologies used are Ruby on rails and React"
+          
+          src={projectSix}
+          
         
         />
+        
         {/* <ProjectsCard
           title="ECOMMERCE WEB APP"
           des=" "
