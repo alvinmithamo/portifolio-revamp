@@ -32,6 +32,8 @@ const ProjectsCard = ({ title, des, src }) => {
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
+          <br/>
+          
         </div>
       </div>
     </div>
