@@ -1,12 +1,12 @@
 import React from 'react'
-import { bannerImg } from "../../assets/index";
+import { profile } from "../../assets/index";
 
 const RightBanner = () => {
   return (
     <div className="w-500 lgl:w-1/2 flex justify-center items-center relative">
       <img
         className="w-[600px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
-       src={bannerImg}
+       src={profile}
         alt=""
       />
       <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>

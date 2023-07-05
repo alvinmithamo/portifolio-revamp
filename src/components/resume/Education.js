@@ -46,8 +46,14 @@ const Education = () => {
             des="I got a chance to be part of the company where I built and maintained various corporates websites using Content Management Systems(CMS) such as Wordpress."
           /> */}
           <ResumeCard
+            title="Software Developer Intern"
+            subTitle="May 2023 - Present"
+            result="KENYA"
+            des="I get to be part of the team in building software systems as well as conduct unit testing on them."
+          />
+          <ResumeCard
             title="Freelance Developer"
-            subTitle="2022 - Present"
+            subTitle="Dec 2022 - Apr 2023"
             result="KENYA"
             des="I get hired on contract-terms as a freelancer where i get to be part of various teams in building scalable software systems."
           />
