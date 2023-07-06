@@ -47,14 +47,14 @@ const Education = () => {
           /> */}
           <ResumeCard
             title="Software Developer Intern"
-            subTitle="May 2023 - Present"
-            result="KENYA"
+            subTitle="Value Chain Factory"
+            result="May 2023 - Present"
             des="I get to be part of the team in building software systems as well as conduct unit testing on them."
           />
           <ResumeCard
-            title="Freelance Developer"
-            subTitle="Dec 2022 - Apr 2023"
-            result="KENYA"
+            title="Web Developer"
+            subTitle="Freelance"
+            result="Dec 2022 - Apr 2023"
             des="I get hired on contract-terms as a freelancer where i get to be part of various teams in building scalable software systems."
           />
           
