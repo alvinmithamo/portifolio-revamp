@@ -18,13 +18,16 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <button link= "https://sleek-real-estate-react.vercel.app/"target="blank">
         <ProjectsCard
           title="PROPERTY LISTING APP"
           des=" The app seeks to list all available properties for sale and rent, bridging the gap between the tenants and landlords. I was built using React and Ruby on Rails "
           src={projectFour}
           
+          
 
         />
+        </button>
         <ProjectsCard
           title="SLEEK RECIPE APP"
           des=" I built this web app as a solution to trying to access recipes of all kinds of dishes. I used an external API (TheMealDB) to achieve this. The app is built using Javascript , HTML5 and CSS"
