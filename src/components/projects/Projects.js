@@ -37,7 +37,7 @@ const Projects = () => {
         <ProjectsCard
         
           title=" WERA JOB PLACEMENT SYSTEM"
-          des=" This was my capstone school project where I collaborated with 5 members of my group to bring this awesome software system. The app seeks to bring jobseekers and recruiters to one place. Technologies used are Ruby on rails and React"
+          des="The app seeks to bring jobseekers and recruiters to one place. Technologies used are Ruby on rails and React"
           
           src={projectSix}
           
