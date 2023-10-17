@@ -30,7 +30,7 @@ const Projects = () => {
         </button>
         <ProjectsCard
           title="SLEEK RECIPE APP"
-          des=" I built this web app as a solution to trying to access recipes of all kinds of dishes. I used an external API (TheMealDB) to achieve this. The app is built using Javascript , HTML5 and CSS"
+          des=" This is an ecommerce web app that sells and deals with exotic snacks and drinks of all kinds."
           src={projectFive}
 
           />
