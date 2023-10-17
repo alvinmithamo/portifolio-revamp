@@ -3,7 +3,7 @@ import Title from '../layouts/Title'
 import { projectFour, projectFive, projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import Link from 'react-dom';
-import { Button } from 'react-scroll';
+// import { Button } from 'react-scroll';
 
 const Projects = () => {
   return (
@@ -18,26 +18,27 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <button link= "https://sleek-real-estate-react.vercel.app/"target="blank">
+
         <ProjectsCard
           title="POTS AND PLANTS KENYA"
-          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire."
+          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire. Link: potsandplantskenya.com"
           src={projectFour}
           
           
 
         />
-        </button>
+       
         <ProjectsCard
-          title="SLEEK RECIPE APP"
-          des=" This is an ecommerce web app that sells and deals with exotic snacks and drinks of all kinds."
+          title="SNACKBARR E-COMMERCE WEBSITE"
+          des=" This is an ecommerce web app that sells and deals with exotic snacks and drinks of all kinds. Link: snackbarr.com"
           src={projectFive}
+
 
           />
         <ProjectsCard
         
           title=" WERA JOB PLACEMENT SYSTEM"
-          des="The app seeks to bring jobseekers and recruiters to one place. Technologies used are Ruby on rails and React"
+          des="The app seeks to bring jobseekers and recruiters to one place. Technologies used are Ruby on rails and React. Link: wera1.vercel.app"
           
           src={projectSix}
           
