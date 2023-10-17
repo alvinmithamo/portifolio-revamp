@@ -21,7 +21,7 @@ const Projects = () => {
         <button link= "https://sleek-real-estate-react.vercel.app/"target="blank">
         <ProjectsCard
           title="POTS AND PLANTS KENYA"
-          des=" The app seeks to list all available properties for sale and rent, bridging the gap between the tenants and landlords. I was built using React and Ruby on Rails "
+          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire."
           src={projectFour}
           
           
