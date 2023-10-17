@@ -21,7 +21,7 @@ const Projects = () => {
 
         <ProjectsCard
           title="POTS AND PLANTS KENYA"
-          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire. Link: potsandplantskenya.com"
+          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire. Link: potsandplantskenya.co.ke"
           src={projectFour}
           
           
