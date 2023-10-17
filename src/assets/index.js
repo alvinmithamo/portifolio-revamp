@@ -3,7 +3,7 @@ import profile from "./images/profile.jpg";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
-import projectFour from "./images/projects/projctFour.png"
+import projectFour from "./images/projects/projectFour.png"
 import projectFive from "./images/projects/projectFive.png"
 import projectSix from "./images/projects/projectSix.png"
 import projectSeven from "./images/projects/ProjectSeven.png"
