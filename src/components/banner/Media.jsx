@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaBootstrap, FaHtml5 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs, SiReact, SiJavascript, SiRuby, SiRubyonrails, SiBootstrap } from "react-icons/si";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaBootstrap, FaHtml5, FaWordpressSimple } from "react-icons/fa";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiReact, SiJavascript, SiRuby, SiRubyonrails, SiBootstrap, SiWordpress } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -27,6 +27,9 @@ const Media = () => {
             </span>
             <span className="bannerIcon">
               <SiBootstrap />
+            </span>
+            <span className="bannerIcon">
+              <SiWordpress />
             </span>
           </div>
         </div>
