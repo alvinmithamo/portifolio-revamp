@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectFour, projectFive, projectSix } from "../../assets/index";
+import { projectFour, projectFive, projectSix, projectSeven } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import Link from 'react-dom';
 // import { Button } from 'react-scroll';
@@ -45,11 +45,11 @@ const Projects = () => {
         
         />
         
-        {/* <ProjectsCard
-          title="ECOMMERCE WEB APP"
-          des=" "
+        <ProjectsCard
+          title="DRINKSASA"
+          des="This is an ecommerce website that sells alcohol and other drinks online and makes deliveries "
           src={projectSeven}
-        /> */}
+        />
         {/* <ProjectsCard
           title="SOCIAL MEDIA CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.

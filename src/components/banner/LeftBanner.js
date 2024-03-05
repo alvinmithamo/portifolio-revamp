@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Full Stack Developer.","Professional Coder.", "Digital Marketer."],
+      words: ["Full Stack Developer.","Frontend Developer.", "Digital Marketer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Experienced full-stack developer with a successful track record, self-taught and bootcamp graduate from Moringa School. I possess the skills and enthusiasm to develop attractive, expandable web applications. 
+        Experienced full-stack developer with a successful track record and a bootcamp graduate from Moringa School. I possess the skills and enthusiasm to develop attractive, expandable web applications. 
         I have experience creating scalable web apps that satisfy users using React and Ruby on Rails for projects ranging from small to large-scale. Don't settle for less when you can work with the best. 
         </p>
       </div>
