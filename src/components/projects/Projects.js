@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectFour, projectFive, projectSix, projectSeven } from "../../assets/index";
+import { projectOne, projectFour, projectFive, projectSix, projectSeven } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import Link from 'react-dom';
 // import { Button } from 'react-scroll';
@@ -21,7 +21,8 @@ const Projects = () => {
 
         <ProjectsCard
           title="POTS AND PLANTS KENYA"
-          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire. Link: potsandplantskenya.co.ke"
+          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire.
+           Link: potsandplantskenya.co.ke"
           src={projectFour}
           
           
@@ -44,18 +45,19 @@ const Projects = () => {
           
         
         />
-        
+     
         <ProjectsCard
+         
           title="DRINKSASA"
-          des="This is an ecommerce website that sells alcohol and other drinks online and makes deliveries "
+          des="This is an ecommerce website that sells alcohol and other drinks online and makes deliveries. Link:drinksasa.com"
           src={projectSeven}
         />
-        {/* <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        /> */}
+      
+        <ProjectsCard
+          title="MELCO INSURANCE"
+          des="This is a static website for an insurance agency, showcasing the various services and insurance packages they offer. Link: melcoinsurance.com"
+          src={projectOne}
+        />
         
         {/* <ProjectsCard
           title="Chatting App"
