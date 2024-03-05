@@ -43,7 +43,7 @@ const Education = () => {
             title="Web Developer"
             subTitle="Charleson Marketing Agency"
             result="Jan 2024 - Present"
-            des="I got a chance to be part of the company where I built and maintained various corporates websites using Content Management Systems(CMS) such as Wordpress."
+            des=" I build and maintain various corporates websites using Content Management Systems(CMS) such as Wordpress."
           />
           <ResumeCard
             title="Software Developer Intern"
