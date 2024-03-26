@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectFour, projectFive, projectSix, projectSeven } from "../../assets/index";
+import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import Link from 'react-dom';
 // import { Button } from 'react-scroll';
@@ -59,12 +59,11 @@ const Projects = () => {
           src={projectOne}
         />
         
-        {/* <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectFive}
-        /> */}
+        <ProjectsCard
+          title="SLEEK RENTALS"
+          des="This is a car renting website that users can book vehicles of their choice for rent. link: sleek-rentals.vercel.app"
+          src={projectEight}
+        />
       </div>
     </section>
   );
