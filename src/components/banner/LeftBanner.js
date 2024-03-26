@@ -32,6 +32,9 @@ const LeftBanner = () => {
       </div>
      {/* Media */}
      <Media />
+     {/* <button>Download CV</button> */}
+     <a href="https://www.jobseeker.com/en/cv/articles/cv-address" target="_blank" class="bg-blue-400 text-white font-bold py-2 px-4 rounded shadow hover:bg-blue-700 inline-flex items-center justify-center">Download CV</a>
+
     </div>
   );
 }
