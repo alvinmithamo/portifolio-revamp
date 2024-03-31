@@ -33,7 +33,7 @@ const ProjectsCard = ({ title, des, src }) => {
             {des}
           </p>
           <br/>
-          
+        
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import Title from '../layouts/Title'
 import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import Link from 'react-dom';
+
 // import { Button } from 'react-scroll';
 
 const Projects = () => {
@@ -24,6 +25,7 @@ const Projects = () => {
           des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire.
            Link: potsandplantskenya.co.ke"
           src={projectFour}
+
           
           
 
