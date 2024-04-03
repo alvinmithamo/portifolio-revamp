@@ -2,9 +2,9 @@ import React from 'react'
 import Title from '../layouts/Title'
 import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
-import Link from 'react-dom';
+import { Link } from 'react-dom';
 
-// import { Button } from 'react-scroll';
+
 
 const Projects = () => {
   return (
@@ -20,51 +20,56 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
 
+   
         <ProjectsCard
           title="POTS AND PLANTS KENYA"
-          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire.
-           Link: potsandplantskenya.co.ke"
+          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire."
           src={projectFour}
+          link="https://potsandplantskenya.co.ke"
+          />
+  
 
           
-          
 
-        />
+    
        
         <ProjectsCard
           title="SNACKBARR E-COMMERCE WEBSITE"
-          des=" This is an ecommerce web app that sells and deals with exotic snacks and drinks of all kinds. Link: snackbarr.com"
+          des=" This is an ecommerce web app that sells and deals with exotic snacks and drinks of all kinds."
           src={projectFive}
-
+          link="https://snackbarr.com"
 
           />
         <ProjectsCard
         
           title=" WERA JOB PLACEMENT SYSTEM"
-          des="The app seeks to bring jobseekers and recruiters to one place. Technologies used are Ruby on rails and React. Link: wera1.vercel.app"
+          des="The app seeks to bring jobseekers and recruiters to one place. Technologies used are Ruby on rails and React."
           
           src={projectSix}
-          
+          link="https://wera1.vercel.app"
         
         />
      
         <ProjectsCard
          
           title="DRINKSASA"
-          des="This is an ecommerce website that sells alcohol and other drinks online and makes deliveries. Link:drinksasa.com"
+          des="This is an ecommerce website that sells alcohol and other drinks online and makes deliveries."
           src={projectSeven}
+          link="https://drinksasa.com"
         />
       
         <ProjectsCard
           title="MELCO INSURANCE"
-          des="This is a static website for an insurance agency, showcasing the various services and insurance packages they offer. Link: melcoinsurance.com"
+          des="This is a static website for an insurance agency, showcasing the various services and insurance packages they offer."
           src={projectOne}
+          link="https://melcoinsurance.com"
         />
         
         <ProjectsCard
           title="SLEEK RENTALS"
           des="This is a car renting website that users can book vehicles of their choice for rent. link: sleek-rentals.vercel.app"
           src={projectEight}
+          link="https://sleek-rentals.vercel.app"
         />
       </div>
     </section>
