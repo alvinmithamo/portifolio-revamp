@@ -6,8 +6,9 @@ import Achievement from './Achievement';
 // import Experience from "./Experience"
 
 const Resume = () => {
+  const [skillData, setSkillData] = useState(false);
    const [educationData, setEducationData] = useState(true);
-   const [skillData, setSkillData] = useState(false);
+   
   //  const [experienceData, setExperienceData] = useState(false);
    const [achievementData, setAchievementData] = useState(false);
   return (
@@ -17,6 +18,20 @@ const Resume = () => {
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+          <li
+            onClick={() =>
+              setSkillData(true)&
+              setEducationData(false) &
+               
+              // setExperienceData(false) &
+              setAchievementData(false)
+            }
+            className={`${
+              skillData ? "border-designColor rounded-lg" : "border-transparent"
+            } resumeLi`}
+          >
+            Professional Skills
+          </li>
           <li
             onClick={() =>
               setEducationData(true) &
@@ -32,19 +47,7 @@ const Resume = () => {
           >
             Education & Experience
           </li>
-          <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(true) &
-              // setExperienceData(false) &
-              setAchievementData(false)
-            }
-            className={`${
-              skillData ? "border-designColor rounded-lg" : "border-transparent"
-            } resumeLi`}
-          >
-            Professional Skills
-          </li>
+          
           {/* <li
             onClick={() =>
               setEducationData(false) &
@@ -62,8 +65,9 @@ const Resume = () => {
           </li> */}
           <li
             onClick={() =>
-              setEducationData(false) &
+              
               setSkillData(false) &
+              setEducationData(false) &
               // setExperienceData(false) &
               setAchievementData(true)
             }
@@ -77,8 +81,9 @@ const Resume = () => {
           </li>
         </ul>
       </div>
-      {educationData && <Education />}
+      
       {skillData && <Skills />}
+      {educationData && <Education />}
       {achievementData && <Achievement />}
       {/* {experienceData && <Experience />} */}
  
