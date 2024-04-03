@@ -146,14 +146,14 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialTwo}
+                  // src={testimonialTwo}
                   alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
                   
                   <h3 className="text-2xl font-bold">Kevin Ng'ang'a</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Founder - Sparta Solutions
+                    Freelancer
                   </p>
                 </div>
               </div>
@@ -175,7 +175,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                   Alvin is a sharp guy! I have worked with him on a few projects for my company and he has proven his expertise in web design as he did one for my company.
+                   Alvin is a sharp guy! I have worked with him on a few projects collaboratively and he has proven his expertise in web design. He is good!
                   </p>
                 </div>
               </div>
