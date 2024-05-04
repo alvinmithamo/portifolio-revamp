@@ -18,25 +18,25 @@ const Contact = () => {
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
 
-  const sendEmail = () => {
-    emailjs.sendForm('service_61p99b7', 'template_feb5axt', '#contact-form', {accessToken: accessToken })
-      .then((result) => {
-        console.log(result.text);
-        setSuccessMsg(
-          `Thank you dear ${username}, Your Messages has been sent Successfully!`
-        );
-        setErrMsg("");
-        setUsername("");
-        setPhoneNumber("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
-      }) 
-      .catch((error) => {
-        console.log(error.text);
-        setErrMsg("Failed to send message. Please try again later.");
-      });
-  };
+  // const sendEmail = () => {
+  //   emailjs.sendForm('service_61p99b7', 'template_feb5axt', '#contact-form', {accessToken: accessToken })
+  //     .then((result) => {
+  //       console.log(result.text);
+  //       setSuccessMsg(
+  //         `Thank you dear ${username}, Your Messages has been sent Successfully!`
+  //       );
+  //       setErrMsg("");
+  //       setUsername("");
+  //       setPhoneNumber("");
+  //       setEmail("");
+  //       setSubject("");
+  //       setMessage("");
+  //     }) 
+  //     .catch((error) => {
+  //       console.log(error.text);
+  //       setErrMsg("Failed to send message. Please try again later.");
+  //     });
+  // };
 
   const handleSend = (e) => {
     e.preventDefault();
@@ -52,10 +52,13 @@ const Contact = () => {
       setErrMsg("Plese give your Subject!");
     } else if (message === "") {
       setErrMsg("Message is required!");
-    } else {
-      sendEmail();
-    }
-  };
+     } 
+    // else {
+    //   sendEmail();
+    
+  }
+
+  
 
   return (
     <section

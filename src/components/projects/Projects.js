@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight } from "../../assets/index";
+import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import { Link } from 'react-dom';
 
@@ -27,12 +27,7 @@ const Projects = () => {
           src={projectFour}
           link="https://potsandplantskenya.co.ke"
           />
-  
-
-          
-
-    
-       
+         
         <ProjectsCard
           title="SNACKBARR E-COMMERCE WEBSITE"
           des=" This is an ecommerce web app that sells and deals with exotic snacks and drinks of all kinds."
@@ -67,9 +62,16 @@ const Projects = () => {
         
         <ProjectsCard
           title="SLEEK RENTALS"
-          des="This is a car renting website that users can book vehicles of their choice for rent. link: sleek-rentals.vercel.app"
+          des="This is a car renting website that users can book vehicles of their choice for rent."
           src={projectEight}
           link="https://sleek-rentals.vercel.app"
+        />
+
+        <ProjectsCard
+          title="SHIRINI EXP"
+          des="This is an agency website that mainly offers services in experiential marketing and communication"
+          src={projectNine}
+          link="https://shirini.co.ke/"
         />
       </div>
     </section>
