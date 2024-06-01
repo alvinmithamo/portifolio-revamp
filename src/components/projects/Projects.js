@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine } from "../../assets/index";
+import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine, projectTen } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import { Link } from 'react-dom';
 
@@ -72,6 +72,13 @@ const Projects = () => {
           des="This is an agency website that mainly offers services in experiential marketing and communication"
           src={projectNine}
           link="https://shirini.co.ke/"
+        />
+
+        <ProjectsCard
+          title="NJERAE"
+          des="This is a music artist portfolio website which portrays what she does in the music industry. "
+          src={projectTen}
+          link="https://njerae.vercel.app/"
         />
       </div>
     </section>
