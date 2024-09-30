@@ -39,11 +39,17 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCard
+            title="Junior Systems Developer"
+            subTitle="Sinsolut Technologies"
+            result="June 2024 - September 2024"
+            des=" I developed various systems such as Nyumbani, a rental management system for landlords and real estate agencies where they can manage their properties and tenants. I also developed various websites using content management system - Wordpress."
+          />
           <ResumeCard
             title="Web Developer"
             subTitle="Charleson Marketing Agency"
             result="Jan 2024 - April 2024"
-            des=" I build and maintain various corporates websites using Content Management Systems(CMS) such as Wordpress."
+            des=" I developed and maintained various corporates websites using Content Management Systems(CMS) such as Wordpress."
           />
           <ResumeCard
             title="Software Developer Intern"

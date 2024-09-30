@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine, projectTen } from "../../assets/index";
+import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFourteen } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import { Link } from 'react-dom';
 
@@ -79,6 +79,34 @@ const Projects = () => {
           des="This is a music artist portfolio website which portrays what she does in the music industry. "
           src={projectTen}
           link="https://njerae.vercel.app/"
+        />
+
+        <ProjectsCard
+          title="MOUNT KENYA WILDLIFE ESTATE"
+          des="This is a website for a luxurious hotel in the Mount Kenya region which offers accommodation for its clientele; both long-term and short term.  "
+          src={projectEleven}
+          link="https://mountkenyawe.co.ke/"
+        />
+
+        <ProjectsCard
+          title="BADOM CLEANERS"
+          des="This is a website for a cleaning company which showcases the services they offer as well as users can book appointments for their services. "
+          src={projectTwelve}
+          link="https://badomcleaners.co.ke/"
+        />
+
+        <ProjectsCard
+          title="KOMRADES"
+          des="This is a website for a pioneering company which empowers women through financial strength, well-being, and community.  "
+          src={projectThirteen}
+          link="https://komrades.co.ke/"
+        />
+
+        <ProjectsCard
+          title="TIMELESS LUXURY"
+          des="This is a website for a real estate company which redifines luxury living through real estate and interior design.  "
+          src={projectFourteen}
+          link="https://timelessluxury.co.ke/"
         />
       </div>
     </section>
