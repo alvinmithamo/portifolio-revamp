@@ -19,22 +19,38 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-
-   
         <ProjectsCard
-          title="POTS AND PLANTS KENYA"
-          des=" The website showcases the various indoor and outdoor pots and plants available for sale and hire."
+              title="NJERAE"
+              des="This is a music artist portfolio website which portrays what she does in the music industry. "
+              src={projectTen}
+              link="https://njerae.vercel.app/"
+          />
+
+        <ProjectsCard
+          title="DENIS MOROGA & ASSOCIATES ADVOCATES "
+          des=" This is a law firm website which serves as their portfolio, showcasing the various legal services they offer."
+          src={projectFive}
+          link="https://morogalaw.com"
+
+          />
+
+        <ProjectsCard
+         
+          title="DRINKSASA"
+          des="This is an ecommerce website that sells alcohol and other drinks online and makes deliveries."
+          src={projectSeven}
+          link="https://drinksasa.com"
+        />
+
+
+        <ProjectsCard
+          title="SPEEDEX INTERIORS"
+          des=" The website is an interior design website which specializes in advanced 3D Product Rendering Services."
           src={projectFour}
-          link="https://potsandplantskenya.co.ke"
+          link="https://spinteriors.speedexmarketing.co.ke/"
           />
          
-        <ProjectsCard
-          title="SNACKBARR E-COMMERCE WEBSITE"
-          des=" This is an ecommerce web app that sells and deals with exotic snacks and drinks of all kinds."
-          src={projectFive}
-          link="https://snackbarr.com"
-
-          />
+        
         <ProjectsCard
         
           title=" WERA JOB PLACEMENT SYSTEM"
@@ -44,20 +60,13 @@ const Projects = () => {
           link="https://wera1.vercel.app"
         
         />
-     
-        <ProjectsCard
-         
-          title="DRINKSASA"
-          des="This is an ecommerce website that sells alcohol and other drinks online and makes deliveries."
-          src={projectSeven}
-          link="https://drinksasa.com"
-        />
+
       
         <ProjectsCard
-          title="MELCO INSURANCE"
-          des="This is a static website for an insurance agency, showcasing the various services and insurance packages they offer."
+          title="JEREMYMKAY ASSOCIATES"
+          des="Jeremy Mkay Associates specializes in advisory, audit & assurance and tax services to privately held businesses, clubs and NGOs."
           src={projectOne}
-          link="https://melcoinsurance.com"
+          link="https://jeremymkay.co.ke"
         />
         
         <ProjectsCard
@@ -74,13 +83,7 @@ const Projects = () => {
           link="https://shirini.co.ke/"
         />
 
-        <ProjectsCard
-          title="NJERAE"
-          des="This is a music artist portfolio website which portrays what she does in the music industry. "
-          src={projectTen}
-          link="https://njerae.vercel.app/"
-        />
-
+        
         <ProjectsCard
           title="MOUNT KENYA WILDLIFE ESTATE"
           des="This is a website for a luxurious hotel in the Mount Kenya region which offers accommodation for its clientele; both long-term and short term.  "
