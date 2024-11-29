@@ -30,7 +30,7 @@ const Projects = () => {
           title="DENIS MOROGA & ASSOCIATES ADVOCATES "
           des=" This is a law firm website which serves as their portfolio, showcasing the various legal services they offer."
           src={projectFive}
-          link="https://morogalaw.com"
+          link="https://morogalaw.co.ke"
 
           />
 
