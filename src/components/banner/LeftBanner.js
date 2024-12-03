@@ -33,7 +33,7 @@ const LeftBanner = () => {
      {/* Media */}
      <Media />
      {/* <button>Download CV</button> */}
-     <a href="https://blush-sybyl-20.tiiny.site" target="_blank" class="bg-blue-400 text-white font-bold py-2 px-4 rounded shadow hover:bg-blue-700 inline-flex items-center justify-center">Download CV</a>
+     <a href="https://alvinmithamo.tiiny.site" target="_blank" class="bg-blue-400 text-white font-bold py-2 px-4 rounded shadow hover:bg-blue-700 inline-flex items-center justify-center">Download CV</a>
 
     </div>
   );
