@@ -113,12 +113,7 @@ const Projects = () => {
           link="https://komrades.co.ke/"
         />
 
-        <ProjectsCard
-          title="WOMAN HEALTH AFRICA"
-          des="This is a portfolio website for a non-governmental organisation which is committed to enhancing the health and well-being of African women during midlife and beyond. "
-          src={projectFourteen}
-          link="https://www.womanhealthafrica.org/"
-        />
+        
       </div>
     </section>
   );
