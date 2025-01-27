@@ -40,6 +40,19 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
+            title="Digital Marketing Intern"
+            subTitle="Long Jump Africa Agency "
+            result="February 2025 - Present"
+            des=" I ama repsonsible for web development and management, SEO analytics and other digital marketing operations at the agency. "
+        />
+        <ResumeCard
+            title="Web Developer"
+            subTitle="Speedex Marketing Agency"
+            result="June 2024 - Present"
+            des=" I am responsible for the development and maintenance of all websites contracted by the agency."
+          />
+        
+        <ResumeCard
             title="Junior Systems Developer"
             subTitle="Sinsolut Technologies"
             result="June 2024 - September 2024"
