@@ -20,6 +20,14 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
+          title="WOMAN HEALTH AFRICA"
+          des="This is a portfolio website for a non-governmental organisation which is committed to enhancing the health and well-being of African women during midlife and beyond. "
+          src={projectFourteen}
+          link="https://www.womanhealthafrica.org/"
+        />
+
+
+        <ProjectsCard
               title="NJERAE"
               des="This is a music artist portfolio website which portrays what she does in the music industry. "
               src={projectTen}
@@ -47,7 +55,7 @@ const Projects = () => {
           title="SPEEDEX INTERIORS"
           des=" The website is an interior design website which specializes in advanced 3D Product Rendering Services."
           src={projectFour}
-          link="https://spinteriors.speedexmarketing.co.ke/"
+          link="https://speedexinteriors.co.ke/"
           />
          
         
@@ -106,10 +114,10 @@ const Projects = () => {
         />
 
         <ProjectsCard
-          title="TIMELESS LUXURY"
-          des="This is a website for a real estate company which redifines luxury living through real estate and interior design.  "
+          title="WOMAN HEALTH AFRICA"
+          des="This is a portfolio website for a non-governmental organisation which is committed to enhancing the health and well-being of African women during midlife and beyond. "
           src={projectFourteen}
-          link="https://timelessluxury.co.ke/"
+          link="https://www.womanhealthafrica.org/"
         />
       </div>
     </section>
