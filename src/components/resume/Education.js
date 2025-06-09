@@ -42,13 +42,13 @@ const Education = () => {
         <ResumeCard
             title="Digital Marketing Intern"
             subTitle="Long Jump Africa Agency "
-            result="February 2025 - Present"
+            result="February 2025 - June 2025"
             des=" I ama repsonsible for web development and management, SEO analytics and other digital marketing operations at the agency. "
         />
         <ResumeCard
             title="Web Developer"
             subTitle="Speedex Marketing Agency"
-            result="June 2024 - Present"
+            result="June 2024 - June 2025"
             des=" I am responsible for the development and maintenance of all websites contracted by the agency."
           />
         
