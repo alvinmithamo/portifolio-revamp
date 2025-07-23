@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/react";
 <Analytics />
 
 
-ReactGA.initialize('G-S4D3KL3K4G'); // Replace with your actual Google Analytics ID
+ReactGA.initialize('G-HBNMYW0Y67'); // Replace with your actual Google Analytics ID
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
