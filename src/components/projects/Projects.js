@@ -78,10 +78,10 @@ const Projects = () => {
         />
         
         <ProjectsCard
-          title="SLEEK RENTALS"
-          des="This is a car renting website that users can book vehicles of their choice for rent."
+          title="OLKONDO SAFARIS"
+          des="This is a tours & travel website that offers various travel packages for tourists to various destinations across the world."
           src={projectEight}
-          link="https://sleek-rentals.vercel.app"
+          link="https://olkondosafaris.co.ke"
         />
 
         <ProjectsCard
@@ -100,10 +100,10 @@ const Projects = () => {
         />
 
         <ProjectsCard
-          title="BADOM CLEANERS"
-          des="This is a website for a cleaning company which showcases the services they offer as well as users can book appointments for their services. "
+          title="VOI ADVENTURES"
+          des="This is a website for a company that offers tours and travel services to various destinations in Kenya and beyond. "
           src={projectTwelve}
-          link="https://badomcleaners.co.ke/"
+          link="https://voiadventures.com/"
         />
 
         <ProjectsCard
