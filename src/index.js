@@ -4,6 +4,10 @@ import "slick-carousel/slick/slick.css";
 import './index.css';
 import App from './App';
 import ReactGA from 'react-ga4';
+import { Analytics } from "@vercel/analytics/react";
+
+<Analytics />
+
 
 ReactGA.initialize('G-S4D3KL3K4G'); // Replace with your actual Google Analytics ID
 
