@@ -81,7 +81,7 @@ const Projects = () => {
           title="OLKONDO SAFARIS"
           des="This is a tours & travel website that offers various travel packages for tourists to various destinations across the world."
           src={projectEight}
-          link="https://olkondosafaris.co.ke"
+          link="https://olkondosafaris.com"
         />
 
         <ProjectsCard
