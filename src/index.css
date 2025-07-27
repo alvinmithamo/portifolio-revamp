@@ -27,3 +27,13 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+
+@media (max-width: 768px) {
+  .section {
+    margin-bottom: 20px; /* Add space between sections */
+    padding: 10px; /* Ensure padding doesn't cause overlap */
+  }
+  .testimonial {
+    margin-top: 20px; /* Push testimonial down if overlapping */
+  }
+}
