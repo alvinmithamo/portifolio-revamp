@@ -54,4 +54,4 @@ export {
   testimonialFour,
   quote,
   contactImg,
-};
+};  

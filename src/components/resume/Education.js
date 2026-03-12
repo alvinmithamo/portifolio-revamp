@@ -39,6 +39,13 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        
+        <ResumeCard
+            title="Web Developer"
+            subTitle="Freelance "
+            result="June 2025 - Present"
+            des="I get hired on contract-terms as a freelancer where i get to develop & maintain websites for various clients acrosee different industries."
+        />
         <ResumeCard
             title="Digital Marketing Intern"
             subTitle="Long Jump Africa Agency "
@@ -78,6 +85,11 @@ const Education = () => {
           />
           
         </div>
+        <br />
+        <br />
+        <br />
+        <br />  
+        
       </div>
     </motion.div>
   );

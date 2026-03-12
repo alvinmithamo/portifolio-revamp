@@ -56,7 +56,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">RUBY</p>
+            <p className="text-sm uppercase font-medium">WORDPRESS</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -69,7 +69,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">RUBY ON RAILS</p>
+            <p className="text-sm uppercase font-medium">NODEJS</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -82,7 +82,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">BOOTSTRAP CSS</p>
+            <p className="text-sm uppercase font-medium">POSTGRESQL</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
