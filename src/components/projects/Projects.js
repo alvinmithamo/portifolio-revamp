@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFifteen } from "../../assets/index";
+import { projectOne, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFifteen, projectSixteen, projectSeventeen, projectEighteen } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import { Link } from 'react-dom';
 
@@ -19,6 +19,27 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+         <ProjectsCard
+          title="DORCUS MUCHIRI"
+          des="A portfolio website for a gynaecologist with appointment booking feature for her patients."
+          src={projectSixteen}
+          link="https://dorcus-muchiri.vercel.app/"
+        /> 
+
+         <ProjectsCard
+          title="KOBO EAST AFRICA"
+          des="A portfolio website for a venture company focused on sustainable development. "
+          src={projectSeventeen}
+          link="https://kobo-eastafrica.com/"
+        /> 
+        
+          <ProjectsCard
+          title="KOBO SPORTS"
+          des="A website for a sports organization focused on promoting athletic activities and events. "
+          src={projectEighteen}
+          link="https://kobosport.com/"
+        /> 
+
         <ProjectsCard
           title="KIBWEZI HONEY MARKETING SOCIETY"
           des="This is a website for a women-led co-operative society which is committed to empowering bee-keeping farming in Makueni. "
@@ -62,15 +83,15 @@ const Projects = () => {
         />    
 
 
-          <ProjectsCard
+          {/* <ProjectsCard
               title="NJERAE"
               des="This is a music artist portfolio website which portrays what she does in the music industry. "
               src={projectTen}
               link="https://njerae.vercel.app/"
           />
-         
+          */}
         
-        <ProjectsCard
+        {/* <ProjectsCard
         
           title=" WERA JOB PLACEMENT SYSTEM"
           des="The app seeks to bring jobseekers and recruiters to one place. Technologies used are Ruby on rails and React."
@@ -78,7 +99,7 @@ const Projects = () => {
           src={projectSix}
           link="https://wera1.vercel.app"
         
-        />
+        /> */}
 
       
         <ProjectsCard
